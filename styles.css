@@ -1,3 +1,5 @@
+
+
 body {
     background-color: rgba(255, 197, 197, 0.865);
     background-image: url(bg1.png);
@@ -9,22 +11,16 @@ body {
     padding: 0;
 }
 
-.galeria {
-    width: 900px;              
-    margin: 0 auto;           
-    font-size: 0;             
-}
-
 .cards {
     background: radial-gradient(circle at center, rgb(64, 165, 168),rgb(149, 144, 175),rgb(255, 193, 193)  );
-    width: 20vw; /* 20% del ancho de la ventana */
-    height: 60vh; /* 60% de la altura de la ventana */
+    width: 340px; /* 20% del ancho de la ventana */
+    height: 420px; /* 60% de la altura de la ventana */
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     display: inline-block;
-    margin: 2vh 4vh; /* Margen en las tarjetas */
-    padding: 20px;
+    margin: 1em; /* Margen en las tarjetas */
+    padding: 1em;
     text-align: center;
     box-sizing: border-box; /* Asegura que el padding no afecte el tamaño de la tarjeta */
 }
@@ -42,13 +38,14 @@ img {
     margin: 10px 0;
     font-size: 20px;
     font-weight: bold;
-    color: #000000;
-    text-align: center;
+    text-align: center;
 }
 
 .cards h3{
-    font-size: 1.5vw; /* Tamaño de fuente relativo al ancho de la ventana */
+    font-size: 1.5rem; /* Tamaño de fuente relativo al ancho de la ventana */
     color: rgba(105, 17, 105, 0.836);
     margin: 0.5vh 0;
     font-family:  'Gill Sans';
 }
+
+
